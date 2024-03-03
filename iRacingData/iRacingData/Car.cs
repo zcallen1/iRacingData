@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace iRacingData
 {
-    [JsonUnmappedMemberHandling(JsonUnmappedMemberHandling.Disallow)]
-    internal class iRacingCar
+    //[JsonUnmappedMemberHandling(JsonUnmappedMemberHandling.Disallow)]
+    internal class Car
     {
         [JsonPropertyName("ai_enabled")]
         public bool AiEnabled { get; set; }
